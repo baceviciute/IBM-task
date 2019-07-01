@@ -10,7 +10,7 @@ function Navbar () {
       <img src={logo} alt="logo" className="Logo"/>
     </li>
      <li className="nav-item">
-      <a href="https://www.lrt.lt/mediateka/tiesiogiai/lrt-televizija" target="_blank"> Full program </a>
+      <a href="https://www.lrt.lt/programa" target="_blank"> Full program </a>
      </li>
    </ul>
  );

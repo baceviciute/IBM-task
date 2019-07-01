@@ -4,7 +4,7 @@
 }
 
 .channel {
-  background-color: #F5F6F7;
+  background-color: #fff;
   margin: 12px;
   padding: 10px;
   box-shadow: 9px 9px 4px 4px rgba(173, 177, 198, 0.2);
@@ -21,4 +21,9 @@
 
 .channel h6 {
   margin: 0 auto;
+}
+
+.channer img {
+  height: 20px;
+  width: 20px;
 }

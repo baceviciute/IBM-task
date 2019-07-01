@@ -55,7 +55,7 @@ public class Service {
 
     private CurrentShow getCurrentShow(Element element) {
         CurrentShow currentShow = new CurrentShow();
-        String channel = element.attr("data-tvprogname");
+        String channel = element.attr("data-tvprogname").toLowerCase();
         String showTitle = element.getElementsByClass("channel-item__title").text();
         String time = element.getElementsByClass("data-block__text").text();
         currentShow.setChannel(channel);

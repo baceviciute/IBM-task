@@ -3,6 +3,7 @@ import './App.css';
 import CurrentShows from "./components/CurrentShow";
 import Navbar from "./components/Navbar";
 
+
 function App() {
   return (
     <div className="App">

@@ -1,14 +1,16 @@
 import React from 'react';
 import {useFetch} from '../../utils/fetch-hook';
+import {icons} from './Icons';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './index.css';
+
 
 function Item(data){
   return (
     <div className="col-3 channel">
-    <h4>{data.channel}</h4>
-    <span>{data.time}</span>
-    <h6>{data.showTitle}</h6>
+      <div><img src={icons[data.channel]} height="40"/></div>
+      <span>{data.time}</span>
+      <h6>{data.showTitle}</h6>
     </div>
   )
 }
