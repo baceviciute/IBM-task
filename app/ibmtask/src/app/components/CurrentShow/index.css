@@ -1,6 +1,5 @@
-.live {
-  padding-top: 7%;
-  color: #4e4f52;
+.show-list {
+  padding-top: 10%;
 }
 
 .channel {
@@ -23,7 +22,6 @@
   margin: 0 auto;
 }
 
-.channer img {
-  height: 20px;
-  width: 20px;
+.channel img {
+  height: 40px;
 }

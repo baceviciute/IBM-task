@@ -8,7 +8,7 @@ import './index.css';
 function Item(data){
   return (
     <div className="col-3 channel">
-      <div><img src={icons[data.channel]} height="40"/></div>
+      <div><img src={icons[data.channel]} /></div>
       <span>{data.time}</span>
       <h6>{data.showTitle}</h6>
     </div>
@@ -18,8 +18,6 @@ function Item(data){
 function CurrentShows (props) {
   const {loading, data, setData} = useFetch();
   return (
-    <div>
-    <h2 className="live"> Live </h2>
       <div className="container show-list">
         <div className="row justify-content-md-center">
           {loading ?
@@ -29,7 +27,6 @@ function CurrentShows (props) {
           }
         </div>
       </div>
-    </div>
     );
 }
 
