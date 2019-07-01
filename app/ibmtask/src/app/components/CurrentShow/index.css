@@ -1,0 +1,24 @@
+.live {
+  padding-top: 7%;
+  color: #4e4f52;
+}
+
+.channel {
+  background-color: #F5F6F7;
+  margin: 12px;
+  padding: 10px;
+  box-shadow: 9px 9px 4px 4px rgba(173, 177, 198, 0.2);
+  color: #4e4f52;
+}
+
+.channel span {
+  font-size: 13px;
+}
+
+.channel h4 {
+  margin: 0 auto;
+}
+
+.channel h6 {
+  margin: 0 auto;
+}

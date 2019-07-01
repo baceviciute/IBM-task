@@ -1,0 +1,9 @@
+.App {
+  text-align: center;
+  background-color: #bfd8ff;
+}
+
+.base-container {
+  max-width: 1200px;
+  margin: 0 auto;
+}

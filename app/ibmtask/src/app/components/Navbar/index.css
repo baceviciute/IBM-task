@@ -1,0 +1,15 @@
+.nav-style {
+    font-size: 26px;
+    height: 60px;
+    padding-top: 20px;
+    margin-left: 20px;
+}
+
+.Logo {
+  height: 45px;
+  margin-right: 5px;
+}
+
+a {
+  font-size: 17px;
+}
